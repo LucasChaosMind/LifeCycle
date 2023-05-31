@@ -1,0 +1,10 @@
+.FilterText{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.625rem;
+    margin-right: 1.25rem;
+}
+.main{
+    margin-top: 90px;
+    z-index: 1;
+}

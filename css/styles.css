@@ -70,6 +70,7 @@ a{
  }
 /*header*/
 .navbar{
+
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
     height: 90px;
 }
@@ -256,7 +257,7 @@ a{
 #SingleProduct{
     margin-top: 110px;
     min-height: calc(100vh - 90px);
-    
+    border: 2px solid #00eeff;
 }
 .Img {
     width: 100%;
@@ -287,7 +288,6 @@ a{
     font-weight: 300; 
     margin: 1.25rem 0 2.45rem 0;
 }
-
 .Price{
     font-weight: 100;
     font-size: 2.5rem;

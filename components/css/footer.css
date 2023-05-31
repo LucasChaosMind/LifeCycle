@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+.footer{
+    margin-top: 2rem;
+}
+.footer .left{
+    flex: 1;
+}
+.footer .left .logo{
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+.social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer .center{
+    flex: 1;
+}
+.footer .right{
+    flex: 1;
+}
+.footer .title{
+    font-weight: 500;
+}
+.center{
+    list-style: none;
+}
+.list-item{
+    list-style: none;
+}
+.link{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.link:hover{
+    color: #ff00ee;
+}
+#icon-facebook{
+    background-color: #00eeff;
+}
+#icon-instagram{
+    background-color: #fe3922;
+}
+#icon-twitter{
+    background-color: #37ffae;
+}
+#icon-pinterest{
+    background-color: #37fe47;
+}
+.social-icon a i{
+    color: #fff;
+}
