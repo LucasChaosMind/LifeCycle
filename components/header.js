@@ -33,8 +33,4 @@ const header = `
 </div>
 </nav>
 `
-const head =`
-        <link rel="stylesheet" href="../components/css/header.css">
-`;
-document.querySelector('header').innerHTML += footer; 
-document.querySelector('head').innerHTML += head; 
+export {header} 

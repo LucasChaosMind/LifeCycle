@@ -44,9 +44,6 @@ const footer=`
             <label class='ms-2'>YourEmailHere@LifeCycles.com</label>
         </div>
     </div>
-    </div>`;
-const head =`
-        <link rel="stylesheet" href="../components/css/footer.css">
-`;
-document.querySelector('#footer').innerHTML += footer; 
-document.querySelector('head').innerHTML += head; 
+    </div>`
+;
+export {footer};
