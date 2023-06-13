@@ -7,6 +7,7 @@
 }
 .footer{
     margin-top: 2rem;
+    color: #000;
 }
 .footer .left{
     flex: 1;
