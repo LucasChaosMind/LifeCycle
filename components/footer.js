@@ -18,7 +18,7 @@ const footer=`
             </div>
         </div>
     </div>
-    <div className='center p-2'>
+    <div class='center p-2'>
         <h3 class='title fw500 pb-2'>Usefull Links</h3>
         <ul class='list d-flex flex-wrap'>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Home</a></li>
@@ -29,17 +29,17 @@ const footer=`
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Terms</a></li>
         </ul>
     </div>
-    <div className='right p-1'>
+    <div class='right p-1'>
         <h3 class='title fw500 pb-2'>Contact</h3>
         <div class='contact-item mb-3 d-flex align-items-center g-1 pointer-event'>
             <i class="fas fa-home"></i>
             <label class='ms-2'>Put the local here</label>
         </div>
-        <div className='contact-item mb-3 d-flex align-items-center g-1'>
+        <div class='contact-item mb-3 d-flex align-items-center g-1'>
             <i class="fas fa-phone"></i>
             <label class='ms-2'>+1 234 567 890</label>
         </div>
-        <div className='contact-item mb-3 d-flex align-items-center g-1'>
+        <div class='contact-item mb-3 d-flex align-items-center g-1'>
             <i class="fas fa-at"></i>
             <label class='ms-2'>YourEmailHere@LifeCycles.com</label>
         </div>
