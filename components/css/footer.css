@@ -36,13 +36,13 @@
 .list-item{
     list-style: none;
 }
-.link{
+.footer-link{
     color: #000;
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s ease;
 }
-.link:hover{
+.footer-link:hover{
     color: #ff00ee;
 }
 #icon-facebook{

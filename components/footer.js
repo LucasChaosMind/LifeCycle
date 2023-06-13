@@ -21,12 +21,12 @@ const footer=`
     <div className='center p-2'>
         <h3 class='title fw500 pb-2'>Usefull Links</h3>
         <ul class='list d-flex flex-wrap'>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>Home</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>Cart</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>My Account</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>Who we are?</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>Support</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='link'>Terms</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Home</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Cart</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>My Account</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Who we are?</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Support</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Terms</a></li>
         </ul>
     </div>
     <div className='right p-1'>
