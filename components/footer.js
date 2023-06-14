@@ -29,7 +29,7 @@ const footer=`
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Terms</a></li>
         </ul>
     </div>
-    <div class='right p-1'>
+    <div class='right p-2'>
         <h3 class='title fw500 pb-2'>Contact</h3>
         <div class='contact-item mb-3 d-flex align-items-center g-1 pointer-event'>
             <i class="fas fa-home"></i>
