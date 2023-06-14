@@ -19,7 +19,7 @@ const footer=`
         </div>
     </div>
     <div class='center p-2'>
-        <h3 class='title fw500 pb-2'>Usefull Links</h3>
+        <h3 class='title fw500'>Usefull Links</h3>
         <ul class='list d-flex flex-wrap'>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Home</a></li>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Cart</a></li>
