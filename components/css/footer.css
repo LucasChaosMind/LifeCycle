@@ -10,7 +10,7 @@
     color: #000;
 }
 .footer .left{
-    width: 38%;
+    flex: 1;
 }
 .footer .left .logo{
     font-size: 2.25rem;
