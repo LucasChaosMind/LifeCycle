@@ -1,10 +1,84 @@
-.FilterText{
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 0.625rem;
-    margin-right: 1.25rem;
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&display=swap');
+:root{
+    --lg-font: 'Kaisei Decol', arial, helvetica;
+    --sm-font: 'Poppins', arial, helvetica;
+    --pinkx: #e5345b;
+    --pink: #ff00ee;
 }
-.main{
-    margin-top: 90px;
-    z-index: 1;
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--sm-font);
+}
+.summary{
+    border: 1px groove #ff00ee;
+    border-radius: 8px;
+    height: 51vh;
+}
+.summary span{
+    font-size: 1.1rem;
+}
+.Cart{
+    margin-top: 110px;
+    min-height: calc(100vh - 110px);
+}
+
+/*Product item*/
+.productSee{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.7s ease;
+}
+.productSee:hover{
+    border: 1px solid #ff00ee;
+}
+.Cart .top-text {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.Cart .info {
+    flex: 3;
+}
+
+.Cart .product-detail {
+    flex: 2;
+}
+
+.Cart .price-detail {
+    flex: 1;
+}
+
+.Cart .img {
+    width: 200px;
+    border-radius: 8px 2px;
+}
+
+.Cart .product-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Cart .product-amount {
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: 1px groove #000;
+}
+
+.Cart .product-price {
+    font-size: 1.8rem;
+    font-weight: 300;
+   
+}
+.Cart hr {
+    background-color: #eee;
+    border: none;
+    height: 2px;
+    margin: 15px 0;
 }
