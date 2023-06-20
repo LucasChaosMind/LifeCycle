@@ -121,6 +121,15 @@ const minusQuantity = (id) => {
             });
             openTheCart();
         }
+        if(product.qty == 0 || product.qty < 0){
+            const index = products.findIndex((pd) => pd.id === product.id)
+            products.splice(index, 1);
+            localStorage.setItem("products", JSON.stringify(products));
+            document.querySelectorAll(".productSee").forEach((product) => {
+                product.remove();
+            });
+            openTheCart();
+        }
     } else {
         return;
     }
