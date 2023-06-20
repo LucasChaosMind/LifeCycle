@@ -21,9 +21,9 @@ const footer=`
     <div class='center p-2'>
         <h3 class='title fw500'>Usefull Links</h3>
         <ul class='list p-0 d-flex flex-wrap'>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Home</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Cart</a></li>
-            <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>My Account</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='../pages/home.html' class='footer-link'>Home</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='../pages/shoppingcart.html' class='footer-link'>Cart</a></li>
+            <li class='list-item w-50 p-0 mb-1'><a href='../pages/login.html' class='footer-link'>My Account</a></li>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Who we are?</a></li>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Support</a></li>
             <li class='list-item w-50 p-0 mb-1'><a href='#' class='footer-link'>Terms</a></li>

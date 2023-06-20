@@ -10,7 +10,7 @@ const header = `
             <i class="fa fa-shopping-cart"></i>
             <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
         </a>
-        <a class="btn position-relative me-4">
+        <a class="btn position-relative me-4"href="../pages/login.html">
             <i class="fa fa-user"></i>
             <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">?</span>
         </a>
@@ -24,10 +24,10 @@ const header = `
 
     <div class="collapse navbar-collapse order-lg-1" id="navMenu">
         <ul class="navbar-nav mx-auto text-center d-flex justify-content-between align-items-center">
-            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="#">Home</a></li>
-            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="#">Collection</a></li>
-            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="#">Specials</a></li>
-            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="#">Popular</a></li>
+            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="../pages/home.html">Home</a></li>
+            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="../pages/home.html/#collection">Collection</a></li>
+            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="../pages/home.html/#special">Specials</a></li>
+            <li class="nav-item px-2 py-2"><a class="nav-link text-dark" href="../pages/home.html/#collection">Popular</a></li>
         </ul>
     </div>
 </div>
