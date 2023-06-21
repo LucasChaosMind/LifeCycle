@@ -6,7 +6,7 @@ const header = `
         <span class="fw-lighter ms-2">Life Cycle</span>
     </a>
     <div class="links order-lg-2 nav-btns">
-        <a class="btn position-relative me-4">
+        <a class="btn position-relative me-4" href="./shoppingcart.html">
             <i class="fa fa-shopping-cart"></i>
             <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
         </a>
